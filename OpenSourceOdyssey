@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Open Source Odyssey</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Open Source Odyssey</h1>
+        <p>Your gateway to exploring open-source projects.</p>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/projects">Projects</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Featured Projects</h2>
+            <ul>
+                <li><a href="/projects">Explore Open-Source Projects</a></li>
+                <li><a href="/projects">Get Involved!</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Open Source Odyssey. All rights reserved.</p>
+    </footer>
+</body>
+</html>
